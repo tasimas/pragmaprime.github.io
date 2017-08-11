@@ -1,0 +1,4 @@
+Download recursively all site
+	wget -r http://prime.ucsd.edu/
+	
+use images/ from download
