@@ -5,3 +5,10 @@ google_analytics:
 theme: jekyll-theme-leap-day
 include: ["_pages"]
 permalink: /:title/
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
+exclude: []

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Here's a Third Page, BIIIITCH!
+## Here's a Third Page, yoooo!
 
 _yaaaaaaaay_ 
 
