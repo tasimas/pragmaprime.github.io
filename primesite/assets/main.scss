@@ -37,3 +37,67 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+/*
+ * Navbar Styling
+ */
+.navbar-brand img {
+	width: 200px;
+}
+
+/*
+ * Carousel Styling
+ */
+.carousel-item {
+	height: 80vh;
+}
+
+/*
+ * Headers
+ */
+.body-content{
+	h1, h2, h3, h4, h5, h6 {
+		color: #206886;
+	}
+}
+
+.body-content .card-text {
+	font-size: 0.9em;
+}
+
+.body-content .card-header {
+	font-size: 1.1em;
+}
+
+.featurette {
+	padding: 50px 0;
+}
+
+.program-overview {
+	background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)),url(images/kiyomizudera_kyoto.jpg) center;
+}
+
+.card-block {
+    min-height: 220px;
+}
+
+
+
+/* Experiment */
+
+/* The heart of the matter */
+.testimonial-group {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.yearbox {
+  display: inline-block;
+  float: none;
+  width: 300px;
+}
+
+/* Decorations */
+.yearbox { padding-bottom: 20px; padding-top: 18px; white-space: normal; }
+/*.yearbox:nth-child(3n+1) { background: #c69; }
+.yearbox:nth-child(3n+2) { background: #9c6; }
+.yearbox:nth-child(3n+3) { background: #69c; }*/

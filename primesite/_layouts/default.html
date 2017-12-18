@@ -21,61 +21,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Other Pages
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
-                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    {% include navbar.html %}
 
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -85,27 +31,18 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+
+          {% for item in site.data.frontpage_slides %}
+            <div class="carousel-item{% if forloop.first %} active{% endif %}" style="background-image: url(' {{ item.path }}')">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>{{ item.slide }}</h3>
+                <p>{{ item.description }}</p>
+              </div>
             </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
+          {% endfor %}
+  
+          
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -119,154 +56,169 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container body-content">
 
-      <h1 class="my-4">Welcome to Modern Business</h1>
+      <div class="row featurette">
+        <div class="col-lg-12 text-center">
+          <h1 class="my-4">Pacific Rim Experiences for Undergraduates</h1>
+          <p>
+            The Pacific Rim Experiences for Undergraduates (PRIME) program was created in 2004 to provide a project-based, hands-on research internship program combined with an experience in international cultural awareness for science and engineering undergraduates at the University of California, San Diego. PRIME grew out of the PRAGMA collaborative project framework and people network. PRIME’s projects are also facilitated through additional collaborations between UC San Diego and international researchers outside the PRAGMA network.
+          </p>
+        </div>
+      </div>
 
-      <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+    </div>
+
+    <div class="container-fluid body-content testimonial-group text-center">
+      <!-- <div class="row text-center text-nowrap"> -->
+        <div class="yearbox">
+          <h4>2004</h4>
+          <p>
+            NSF $156,000, 3-year grant to PRIME; inaugural class of 9 go to Australia, Japan or Taiwan.
+          </p>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+        <div class="yearbox">
+          <h4>2005</h4>
+          <p>
+            Program expands to 13 students and China.
+          </p>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+        <div class="yearbox">
+          <h4>2006</h4>
+          <p>
+            Women outnumber men among 14 students, and PRIME opens up to non-engineering majors.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2007</h4>
+          <p>
+            Cohort expands to 15 students despite end of original 3-year NSF grant.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2008</h4>
+          <p>
+            PRIME grows to 21 students and adds host sites in Malaysia and New Zealand.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2009</h4>
+          <p>
+            33 students go to 13 host institutions, including first site in India, University of Hyderabad.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2010</h4>
+          <p>
+            29 students fan out to host sites in 9 countries.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2011</h4>
+          <p>
+            23 undergraduates push PRIME alumni above 150 to date.
+          </p>
+        </div>
+        <div class="yearbox">
+          <h4>2012</h4>
+          <p>
+            PRIME alumna Haley Hunter-Zinck, Class of ’08 in Australia, donates $100,000 to PRIME in memory of her late mother, Jennifer Zinck; 18 students participate in summer program.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="program-overview">
+      <div class="container body-content">
+        <!-- Marketing Icons Section -->
+        <div class="row featurette">
+          <div class="col-lg-12 text-center text-light">
+            <h1 class="my-4 text-light">Program Overview</h1>
+            <p>
+              The PRIME research internship takes place annually over a 30-week period that includes four phases:
+            </p>
+          </div>
+
+          <div class="col-xl-3 mb-4">
+            <div class="card h-100 text-center">
+              <h4 class="card-header">Admission Process<br/>(Winter Quarter)</h4>
+              <div class="card-body">
+                <p class="card-text">
+                  Application (a student-written internship project based on the research interest and expertise of the dual mentors), interview and placement process
+                </p>
+              </div>
             </div>
           </div>
+
+          <div class="col-xl-3 mb-4">
+            <div class="card h-100 text-center">
+              <h4 class="card-header">Research and Cultural Preparation<br/>(Spring Quarter)</h4>
+              <div class="card-body">
+                <p class="card-text">
+                  On-campus, mentored research skill building and cultural competency development
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 mb-4">
+            <div class="card h-100 text-center">
+              <h4 class="card-header">Research and Cultural Internship<br/>(Summer)</h4>
+              <div class="card-body">
+                <p class="card-text">
+                  Summer internship at the host site and ongoing cultural competency development through weekly reflection essays
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 mb-4">
+            <div class="card h-100 text-center">
+              <h4 class="card-header">Re-entry Activities<br/>(Fall Quarter)</h4>
+              <div class="card-body">
+                <p class="card-text">
+                  Participating in workshops to systematically reflect on the international experience; sharing the experience with other students during study-abroad info sessions; continuing the research at UCSD for publication
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="row justify-content-center"> -->
+          <div class="col-lg-4 offset-lg-4">
+            <a class="btn btn-lg btn-secondary btn-block btn-info" href="#">Learn More</a>
+          </div>
+          
+
+        </div> <!-- /row -->
+
+      </div> <!-- /body content -->
+    </div> <!-- /program overview -->
+
+    <div class="container body-content">
+
+      <div class="row featurette">
+        <div class="col-lg-12 text-center">
+          <h1>Research Overview</h1>
+          <p>
+            The students’ internship projects range from structural biology, bioengineering, geosciences and visualization to earthquake engineering, computational chemistry, cultural heritage and more. Each student uses or develops components of cyberinfrastructure to complete his or her project. The work of previous students has led to the development of software products as well as to publications in peer-reviewed journals. Examples of students’ contributions have been highlighted in the PRAGMA Collaborative Overview.
+          </p>
         </div>
       </div>
       <!-- /.row -->
 
-      <!-- Portfolio Section -->
-      <h2>Portfolio Heading</h2>
+      <div class="row justify-content-center featurette">
+        <div class="col-lg-4 text-center">
+          <h4>PRAGMA Collaborative Overview 2011 - 2012</h4>
+          <img src="assets/images/brochure_2012.jpg">
+        </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Four</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Five</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Six</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-            </div>
-          </div>
+        <div class="col-lg-4 offset-lg-2 text-center">
+          <h4>PRAGMA Collaborative Overview 2012 - 2013</h4>
+          <img src="assets/images/brochure_2013.jpg">
         </div>
       </div>
-      <!-- /.row -->
 
-      <!-- Features Section -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Modern Business Features</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
-          <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Call to Action Section -->
-      <div class="row mb-4">
-        <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-        </div>
-        <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-        </div>
-      </div>
+      
 
     </div>
     <!-- /.container -->
@@ -274,7 +226,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; PRIME 2017</p>
       </div>
       <!-- /.container -->
     </footer>
