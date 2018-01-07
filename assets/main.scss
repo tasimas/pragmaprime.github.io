@@ -16,6 +16,7 @@
 
 body {
   padding-top: 54px;
+  /*font-size: 1rem;*/
 }
 
 @media (min-width: 992px) {
@@ -82,8 +83,41 @@ body {
 }
 
 
+/*
+ * Individual Page Sections
+ */
+.page-header-section {
+  /*margin: 130px 0 0 50px;*/
+  padding: 70px 0 50px 0; 
+}
+
+.page-header-img-wrapper {
+  background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)),url(images/kiyomizudera_kyoto.jpg) center;
+}
+
+.card-block {
+  padding: 20px;
+  min-height: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.sponsor-vertical-center {
+  min-height: 130px; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.subpage {
+  font-size: 0.9rem;
+}
+
+.prime-people {
+  font-size: 0.8rem;
+}
 
 /* Experiment */
+
 
 /* The heart of the matter */
 .testimonial-group {

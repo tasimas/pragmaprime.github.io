@@ -5,6 +5,8 @@ toc:
   - page: About
     url: /about
     subpages: 
+      - page: About PRIME
+        url: /about
       - page: Sponsors & Partners
         url: /about/sponsors-partners
       - page: PRIME people
@@ -12,11 +14,13 @@ toc:
       - page: Appendix
         url: /about/appendix
 
-  - page: Studies
+  - page: Research
     url: /studies
     subpages:
-      - page: Awards & Publications
-        url: /studies/awards-publications
+      - page: Areas of Research
+        url: /research
+      - page: Recognition & Publications
+        url: /research/recognition-publications
 
   - page: Alumni
     url: /alumni
