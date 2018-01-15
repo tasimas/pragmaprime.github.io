@@ -1,10 +1,11 @@
 ---
 layout: research
-title: Areas of Research
-permalink: "/research"
+title: AREAS OF RESEARCH
+category: Research
+permalink: "/research/"
 ---
 
-# RESEARCH AREAS
+# {{ page.title }}
 
 PRIME focuses on the use of new technologies in a wide variety of areas. It has been an integral part in facilitating interdisciplinary research in a globalized setting. PRIME research reinforces PRAGMA’s mission to enable small-to-medium size international groups to make rapid progress in conducting research and education by providing and developing international, experimental cyberinfrastructure. The main areas of PRIME research to date include: Computational Biology/Chemistry, Environmental Observing Systems, Earthquake Engineering, Cultural Heritage, Computer Science, and Visualization.
 

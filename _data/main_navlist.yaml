@@ -1,16 +1,25 @@
 toc:
-  - page: Apply Now
+  - page: Apply
     url: /apply-now
+    subpages:
+      - page: Apply Now
+        url: /apply-now
+      - page: App Process & Eligibility
+        url: /apply/app-process
 
   - page: About
     url: /about
     subpages: 
       - page: About PRIME
         url: /about
+      - page: PRIME Curriculum
+        url: /about/curriculum
       - page: Sponsors & Partners
         url: /about/sponsors-partners
       - page: PRIME people
         url: /about/prime-people
+      - page: Resources
+        url: /about/resources
       - page: Appendix
         url: /about/appendix
 
@@ -19,8 +28,10 @@ toc:
     subpages:
       - page: Areas of Research
         url: /research
-      - page: Recognition & Publications
-        url: /research/recognition-publications
+      - page: Awards & Software
+        url: /research/awards-software
+      - page: Publications
+        url: /research/Publications
 
   - page: Alumni
     url: /alumni

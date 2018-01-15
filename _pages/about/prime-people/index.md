@@ -1,8 +1,11 @@
 ---
 layout: generic_about_subpage
-title: PRIME People
+title: PRIME PEOPLE
+category: About
 permalink: "/about/prime-people"
 ---
+
+# {{ page.title }}
 
 ### COORDINATING AND ADVISING TEAM
 

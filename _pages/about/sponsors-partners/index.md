@@ -1,10 +1,11 @@
 ---
 layout: sponsors_partners
-title: Sponsors & Partners
+title: SPONSORS & PARTNERS
+category: About
 permalink: "/about/sponsors-partners"
 ---
 
-# SPONSORS & PARTNERS
+# {{ page.title }}
 Supporting PRIME is accomplished through the participation of many UC San Diego units as well as the sites that host our students. Support for the students and coordinating the program comes from several sponsors and partners.
 
 **UCSD Participating Units** include:

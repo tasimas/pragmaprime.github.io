@@ -1,8 +1,11 @@
 ---
 layout: about
-title: Appendix
+title: APPENDIX
+category: About
 permalink: "/about/appendix"
 ---
+
+# {{ page.title }}
 
 ##### Administration
 

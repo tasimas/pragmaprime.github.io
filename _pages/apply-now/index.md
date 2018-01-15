@@ -1,6 +1,7 @@
 ---
 layout: applynow
-title: Apply Now
+title: APPLY NOW
+category: Apply Now
 permalink: "/apply-now/"
 ---
 
