@@ -46,11 +46,29 @@ body {
 	width: 200px;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#logo-tagline {
+  font-size: 0.8rem;
+}
+
 /*
  * Carousel Styling
  */
 .carousel-item {
-	height: 80vh;
+	/*height: 80vh;*/
+}
+
+#landing-cta {
+  position: absolute;
+  bottom: 50%;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  width: 200px;
+  margin: 0 auto;
 }
 
 /*
@@ -72,6 +90,22 @@ body {
 
 .featurette {
 	padding: 50px 0;
+}
+
+.featurette-shorter {
+  padding: 25px 0;
+}
+
+.featurette-notop {
+  padding: 0 0 50px 0;
+}
+
+.landing-feed h2 {
+  margin-bottom: 30px;
+}
+
+.landing-feed {
+  background-color: #f0f0f0;
 }
 
 .program-overview {

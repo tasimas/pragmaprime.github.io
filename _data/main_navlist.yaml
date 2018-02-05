@@ -51,12 +51,14 @@ toc:
       - page: 2009
         url: /alumni/2009
 
-  - page: Media
+  - page: What's Happening
     url: /media
     subpages:
-      - page: In the News
-        url: /media/in-the-news
+      - page: Events
+        url: /whats-happening/events
+      - page: PRIME News
+        url: /whats-happening/prime-news
       - page: Video Gallery
-        url: /media/video-gallery
+        url: /whats-happening/video-gallery
       - page: Photo Gallery
-        url: /media/photo-gallery
+        url: /whats-happening/photo-gallery

@@ -1,5 +1,5 @@
 ---
-layout: generic_about_subpage
+layout: applynow
 title: APPLICATION PROCESS
 category: Apply
 permalink: "/apply/app-process"

@@ -1,0 +1,16 @@
+<div class="card bg-light" style="margin-bottom: 40px">
+	<div class="card-header">
+		<h4 class="card-title"><i class="fas fa-link"></i> Upcoming Events</h4>
+	</div>
+
+	<div class="card-block">
+		{% for post in site.categories.event %}
+
+	    	<dl class="row">
+	        	<dt class="col-sm-4 text-right">{{ post.date | date: "%m.%d.%y" }} </dt>
+	            <dd class="col-sm-8"><a href="{{ post.url }}">{{ post.title }}</a></dd>
+	        </dl>
+	    {% endfor %}
+	</div>
+
+</div> <!-- /.card -->

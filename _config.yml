@@ -4,7 +4,12 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
 include: ["_pages"]
-permalink: /:title/
+permalink: date
+paginate: 5
+paginate_path: "/prime-news/page:num"
+
+plugins:
+  - jekyll-paginate
 
 sass:
     load_paths:
