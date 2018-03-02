@@ -317,7 +317,7 @@ permalink: "/alumni/2010"
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-![Allison Johnston]({{ "/assets/images/a-Johnston.png" | absolute_url }})
+![Allison Johnston]({{ "/assets/images/a-johnston.png" | absolute_url }})
 
 ###### Allison Johnston
 
