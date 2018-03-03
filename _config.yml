@@ -8,13 +8,15 @@ permalink: date
 paginate: 5
 paginate_path: "/prime-news/page:num"
 
-plugins:
+plugins_dir:
   - jekyll-paginate
 
 sass:
     load_paths:
         - _sass
         - node_modules
+
+gems: [jekyll-paginate]
 
 exclude: []
 
