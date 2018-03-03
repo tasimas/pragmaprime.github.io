@@ -5,16 +5,15 @@ category: Alumni
 permalink: "/alumni/2011"
 ---
 
-# {{ page.title }}
-
-### Australia - Melbourne
-
+### {{ page.title }}
 <br>
+
+#### Australia - Melbourne
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Xiaolong Qiu]({{ "/assets/images/x-qiu.png" | absolute_url }})
 
 ###### Xiaolong Qiu
@@ -22,7 +21,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Jerry Ting-An Tsai]({{ "/assets/images/j-tsai.png" | absolute_url }})
 
 ###### Jerry Ting-An Tsai
@@ -30,7 +29,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Jennifer Kaehms]({{ "/assets/images/j-kaehms.png" | absolute_url }})
 
 ###### Jennifer Kaehms
@@ -46,13 +45,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### China - Beijing
+#### China - Beijing
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Victor Chu]({{ "/assets/images/v-chu.png" | absolute_url }})
 
 ###### Victor Chu
@@ -60,7 +59,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Brian Zhang]({{ "/assets/images/b-zhang.png" | absolute_url }})
 
 ###### Brian Zhang
@@ -75,13 +74,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### Japan - Kyoto
+#### Japan - Kyoto
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Jiaheng (Jade) He]({{ "/assets/images/j-he.png" | absolute_url }})
 
 ###### Jiaheng (Jade) He
@@ -89,7 +88,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Iris Shieh]({{ "/assets/images/i-shieh.png" | absolute_url }})
 
 ###### Iris Shieh
@@ -104,13 +103,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### Japan - Osaka
+#### Japan - Osaka
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Daniel Li]({{ "/assets/images/d-li.png" | absolute_url }})
 
 ###### Daniel Li
@@ -118,7 +117,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Brian Tsui]({{ "/assets/images/b-tsui.png" | absolute_url }})
 
 ###### Brian Tsui
@@ -126,7 +125,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Matthew Religioso]({{ "/assets/images/m-religioso.png" | absolute_url }})
 
 ###### Matthew Religioso
@@ -142,13 +141,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### Japan - Nara
+#### Japan - Nara
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Lance Castillo]({{ "/assets/images/l-castillo.png" | absolute_url }})
 
 ###### Lance Castillo
@@ -156,7 +155,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Wesley Hsu]({{ "/assets/images/w-hsu.png" | absolute_url }})
 
 ###### Wesley Hsu
@@ -164,7 +163,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Sarah Larsen]({{ "/assets/images/s-larsen.png" | absolute_url }})
 
 ###### Sarah Larsen
@@ -180,13 +179,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### Malaysia - Penang
+#### Malaysia - Penang
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Alexandra DeLaney]({{ "/assets/images/a-delaney.png" | absolute_url }})
 
 ###### Alexandra DeLaney
@@ -194,7 +193,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Pek Ieong]({{ "/assets/images/p-ieong.png" | absolute_url }})
 
 ###### Pek Ieong
@@ -210,13 +209,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### New Zealand - Auckland
+#### New Zealand - Auckland
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Joseph Issac Wong]({{ "/assets/images/j-wong.png" | absolute_url }})
 
 ###### Joseph Issac Wong
@@ -224,7 +223,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Sean Luong]({{ "/assets/images/s-luong.png" | absolute_url }})
 
 ###### Sean Luong
@@ -232,7 +231,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Christopher Manco]({{ "/assets/images/c-manco.png" | absolute_url }})
 
 ###### Christopher Manco
@@ -248,13 +247,13 @@ permalink: "/alumni/2011"
 ---
 
 
-### Taiwan - Taipei
+#### Taiwan - Taipei
 
 <div class="prime-people" markdown="1">
 
 <div class="row">
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Howard Li]({{ "/assets/images/h-li.png" | absolute_url }})
 
 ###### Howard Li
@@ -262,7 +261,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Monica Chan]({{ "/assets/images/m-chan.png" | absolute_url }})
 
 ###### Monica Chan
@@ -270,7 +269,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Jeanne Wang]({{ "/assets/images/j-wang.png" | absolute_url }})
 
 ###### Jeanne Wang
@@ -278,7 +277,7 @@ permalink: "/alumni/2011"
 [Final Report](#)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+<div class="col-2 text-center" markdown="1">
 ![Adrian Teng-Amnuay]({{ "/assets/images/a-teng.png" | absolute_url }})
 
 ###### Adrian Teng-Amnuay
