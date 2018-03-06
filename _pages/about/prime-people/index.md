@@ -268,25 +268,6 @@ Jurgen Schulze is a Research Scientist in UCSD division of Calit2. He received h
 
 <div class="row">
 <div class="col-lg-3 text-center" markdown="1">
-![Sameer Tilak]({{ "/assets/images/img-people-stilak.png" | absolute_url }})
-</div>
-
-<div class="col-lg-9" markdown="1">
-
-###### Sameer Tilak
-Sameer Tilak is an Assistant Research Scientist in UCSD division of Calit2, and is part of the Cyberinfrastructure Laboratory for Environmental Observing Systems (CLEOS) in San Diego Supercomputer Center.
-
-**Research Interests:** Sensor networking, stream data processing, mobile computing, and cloud computing. He is also involved in designing and developing cyberinfrastructure for large-scale sensor-based observing systems.
-
-**Recent PRIME Projects: TBD**
-
-</div>
-</div>
-
----
-
-<div class="row">
-<div class="col-lg-3 text-center" markdown="1">
 ![Lelli Van Den Einde]({{ "/assets/images/img-people-lvdeinde.png" | absolute_url }})
 </div>
 
